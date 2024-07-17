@@ -1,2 +1,2 @@
-# Dasha Krylchuk React Portfolio Application
+# React Portfolio Application
 
