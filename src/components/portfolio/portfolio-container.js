@@ -39,7 +39,7 @@ export default class PortfolioContainer extends Component {
       
     })
     .catch(error => {
-      console.log(error);
+      console.log('getPortfolioItems filter', error);
     });
   }
 

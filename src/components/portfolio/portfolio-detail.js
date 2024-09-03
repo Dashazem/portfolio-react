@@ -15,7 +15,6 @@ export default class PortfolioDetail extends Component {
       { withCredentials: true }
     )
     .then(response => {
-      console.log('res', response);
       this.setState({
         portfolioItem: response.data.portfolio_item
       })
