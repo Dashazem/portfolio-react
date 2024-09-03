@@ -78,7 +78,7 @@ module.exports = webpackMerge(webpackCommon, {
     allowedHosts: [
       'render.com',
       'localhost', 
-      'https://react-portfolio-vwzy.onrender.com' 
+      'react-portfolio-vwzy.onrender.com' 
     ],
     contentBase: path.resolve(__dirname, '../static'),
     watchContentBase: true,
