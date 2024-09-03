@@ -13,6 +13,11 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const LoaderOptionsPlugin = require("webpack/lib/LoaderOptionsPlugin");
 
 module.exports = webpackMerge(webpackCommon, {
+  entry: {
+    app: ['./src/bootstrap.js'],
+    vendor: './src/vendor.js',
+  },
+  
   bail: true,
 
   devtool: "source-map",
