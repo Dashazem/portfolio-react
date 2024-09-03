@@ -74,6 +74,7 @@ module.exports = webpackMerge(webpackCommon, {
   devServer: {
     host: env.devServer.host || '0.0.0.0',
     port: env.devServer.port || 3000,
+    public: 'https://react-portfolio-vwzy.onrender.com',
     contentBase: path.resolve(__dirname, '../static'),
     watchContentBase: true,
     compress: true,
